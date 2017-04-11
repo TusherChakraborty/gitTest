@@ -14,7 +14,7 @@ void setup() {
   return;
   }
 
-  tmrpcm.setVolume(6);
+  tmrpcm.setVolume(6); // max can be 7
   startTime = millis();
   tmrpcm.play("a.wav");
   while(tmrpcm.isPlaying())
